@@ -1,0 +1,18 @@
+
+
+entity DroolsFiles {
+  fileName String,
+  fileType String,
+  fileContent AnyBlob
+}
+entity ExceptionLogs {
+  exceptionMessage String
+}
+entity OperationsLogs {
+  operationName String,
+  logDetails String
+}
+
+dto DroolsFiles, ExceptionLogs, OperationsLogs with mapstruct
+paginate DroolsFiles, ExceptionLogs, OperationsLogs with pagination
+service DroolsFiles, ExceptionLogs, OperationsLogs with serviceImpl

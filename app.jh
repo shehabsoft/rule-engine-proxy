@@ -1,0 +1,16 @@
+
+
+entity ExceptionLogs {
+  exceptionMessage TextBlob
+}
+entity OperationsLogs {
+  operationName String,
+  logDetails String
+}
+
+paginate all with pagination
+dto * with mapstruct
+
+service all with serviceImpl
+
+

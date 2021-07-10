@@ -1,0 +1,23 @@
+{
+  "name": "ExceptionLogs",
+  "fields": [
+    {
+      "fieldName": "exceptionMessage",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "text"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210331083417",
+  "entityTableName": "exception_logs",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "ruleEngineProxy",
+  "applications": "*",
+  "microserviceName": "ruleEngineProxy"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "OperationsLogs",
+  "fields": [
+    {
+      "fieldName": "operationName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "logDetails",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210331083517",
+  "entityTableName": "operations_logs",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "ruleEngineProxy",
+  "applications": "*",
+  "microserviceName": "ruleEngineProxy"
+}

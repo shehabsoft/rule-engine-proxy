@@ -1,0 +1,40 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.emu.rule.proxy",
+      "nativeLanguage": "ar-ly"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "ruleEngineProxy",
+    "packageName": "com.emu.rule.proxy",
+    "packageFolder": "com/emu/rule/proxy",
+    "serverPort": "8081",
+    "authenticationType": "oauth2",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": "kafka",
+    "serviceDiscoveryType": "consul",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "MTNiMDU3MzNjNWYzMzE0ZjNmYjMyMWFjMzMzZDY5NmE4OGU5NmMxYjY3YjVhMThhOGQzYmQwYzhmMzZjYTdlNmYwZGFiNzNmNDk0MDg1MGE5NjFlMmI5MjZhNjg4OTNjYTNlNzhkMWM1MjEwZTkyNmY3MWVlZDYxNGUwNTcxOGQ=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1617178541930,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "ar-ly",
+    "languages": ["ar-ly", "en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
